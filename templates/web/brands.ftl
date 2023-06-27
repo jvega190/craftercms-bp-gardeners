@@ -1,7 +1,7 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
 <!--Brand Section-->
-<section id="brand" class="brand fix roomy-80">
+<@crafter.section id="brand" class="brand fix roomy-80">
   <#if contentModel.sectionTitle?? >
     <span class="scrollIndicatorTitle">
       ${contentModel.sectionTitle}
@@ -28,5 +28,5 @@
       </#if>
     </@crafter.div>
   </div>
-</section>
+</@crafter.section>
 <!-- End off Brand section -->

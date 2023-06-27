@@ -1,7 +1,7 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
 <!--Team section-->
-<section id="team" class="team bg-grey fix">
+<@crafter.section id="team" class="team bg-grey fix">
   <div class="container">
     <div class="main_team roomy-80">
       <div class="head_title text-center fix">
@@ -57,5 +57,5 @@
       </div>
     </div><!-- End off main_team -->
   </div><!-- End off container -->
-</section>
+</@crafter.section>
 <!-- End off Team section -->

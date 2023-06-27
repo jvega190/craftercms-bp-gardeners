@@ -56,21 +56,7 @@
   <#include "/templates/web/page-home-header.ftl" />
 
   <!-- Sections -->
-  <div>
-    <@crafter.div $field="sections_o" class="sections">
-      <#list (contentModel.sections_o.item)![] as aSection >
-        <#assign index = aSection?index />
-        <#if aSection.component??>
-          <#assign sectionItem = aSection.component />
-        <#else>
-          <#assign sectionItem = siteItemService.getSiteItem(aSection.key) />
-        </#if>
-        <@crafter.div $field="sections_o" $index=index id='${sectionItem["internal-name"]?replace(" ", "_")}'>
-          <@renderComponent component=aSection />
-        </@crafter.div>
-      </#list>
-    </@crafter.div>
-  </div>
+  <@crafter.renderComponentCollection $field="sections_o" />
 
   <!-- Footer -->
   <#include "/templates/web/page-home-footer.ftl" />

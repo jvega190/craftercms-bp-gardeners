@@ -1,7 +1,7 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
 <!--Featured Section-->
-<section id="features" class="features bg-grey">
+<@crafter.section id="features" class="features bg-grey">
   <div class="container">
     <div class="row">
       <div class="main_features fix roomy-80 roomy-80-s">
@@ -46,5 +46,5 @@
     </div><!-- End off row -->
 
   </div><!-- End off container -->
-</section>
+</@crafter.section>
 <!-- End off Featured Section-->

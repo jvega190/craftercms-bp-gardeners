@@ -6,7 +6,7 @@
   <#assign bgStyle="style='background-image: url(${contentModel.carouselBackground_s});'" />
 </#if>
 
-<section id="test" class="test bg-black roomy-60 fix">
+<@crafter.section id="test" class="test bg-black roomy-60 fix">
   <div class="overlay"></div>
   <div class="container">
     <div class="row">
@@ -70,7 +70,7 @@
       </div>
     </div><!-- End off row -->
   </div><!-- End off container -->
-</section>
+</@crafter.section>
 <#--<section id="test" class="test bg-black roomy-60 fix" ${bgStyle} <@crafter.componentAttr path=contentModel.storeUrl />>-->
 <#--</section>-->
 <!-- End off Carousel section -->

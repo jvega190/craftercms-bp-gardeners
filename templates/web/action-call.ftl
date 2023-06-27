@@ -1,7 +1,7 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
 <!--Call to action section-->
-<section id="action" class="action bg-blue roomy-40">
+<@crafter.section id="action" class="action bg-blue roomy-40">
   <#if contentModel.sectionTitle?? >
     <@crafter.span $field="sectionTitle" class="scrollIndicatorTitle">
       ${contentModel.sectionTitle}
@@ -30,5 +30,5 @@
       </div>
     </div>
   </div>
-</section>
+</@crafter.section>
 <!--End Call to action section-->

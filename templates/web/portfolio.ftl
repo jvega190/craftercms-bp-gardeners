@@ -1,7 +1,7 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
 <!--Portfolio section-->
-<section id="product" class="product text-center">
+<@crafter.section id="product" class="product text-center">
   <div class="container">
     <div class="main_product roomy-80">
       <div class="head_title text-center fix">
@@ -64,5 +64,5 @@
       </div>
     </div><!-- End off row -->
   </div><!-- End off container -->
-<section>
+</@crafter.section>
 <!-- End off Portfolio section -->

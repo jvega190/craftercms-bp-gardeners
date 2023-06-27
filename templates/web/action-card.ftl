@@ -6,7 +6,7 @@
 </#if>
 
 <!--Business Section-->
-<section id="business" class="business bg-blue roomy-70">
+<@crafter.section id="business" class="business bg-blue roomy-70">
 
   <#if contentModel.sectionTitle?? >
     <span class="scrollIndicatorTitle">${contentModel.sectionTitle}</span>
@@ -51,5 +51,5 @@
       </div>
     </div>
   </div>
-</section>
+</@crafter.section>
 <!-- End off Business section -->

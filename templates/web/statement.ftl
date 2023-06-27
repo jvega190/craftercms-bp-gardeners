@@ -1,7 +1,7 @@
 <#import "/templates/system/common/crafter.ftl" as crafter />
 
 <!--Statement section-->
-<section id="dialogue" class="dialogue bg-white roomy-80">
+<@crafter.section id="dialogue" class="dialogue bg-white roomy-80">
   <div class="container">
     <div class="row">
       <div class="main_dialogue text-center">
@@ -14,5 +14,5 @@
       </div>
     </div>
   </div>
-</section>
+</@crafter.section>
 <!--End Statement section-->

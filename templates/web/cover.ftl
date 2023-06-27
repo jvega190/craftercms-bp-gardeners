@@ -13,7 +13,7 @@
 </#if>
 
 <!--Cover Section-->
-<section id="home" class="home bg-black fix ${bgVideoClass}">
+<@crafter.section id="home" class="home bg-black fix ${bgVideoClass}">
   <#if contentModel.sectionTitle?? >
     <@crafter.span $field="sectionTitle" class="scrollIndicatorTitle">
       ${contentModel.sectionTitle}
@@ -68,5 +68,5 @@
       </div>
     </div><!--End off row-->
   </div><!--End off container -->
-</section>
+</@crafter.section>
 <!--End off Cover Section-->
